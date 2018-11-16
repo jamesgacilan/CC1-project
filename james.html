@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<title>Gacilan, John James</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;s
+    color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width:150px ;background: #222; right:0}
+
+.div1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("enigma2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	
+    height: 130vh;
+}
+
+.div2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("moon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	    width: 100%;
+    height: auto;
+background-size: cover;
+    height: 700vh;
+}
+.div3{
+    background-image:url("Untitled.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    height: 80vh;
+	background-size: cover;
+	
+
+}
+
+
+body {
+
+    margin-right: 150px;
+    margin-left: 0px;
+}
+
+.main-img {
+    border-radius: 50%;
+    border: 3px solid black;
+    border-image-repeat: initial;
+}
+
+.container {
+    position: relative;
+ 
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+	
+}
+
+</style>
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center ">
+
+  <!-- Avatar image in top left corner -->
+  <img src="gold.gif" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+  <a href="gacilan.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <p>HOME</p>
+	<img src="home.png" alt="Home" style="float:center;width:42px;height:42px;">
+  </a>
+  <a href="gacilan.html#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>ABOUT</p>
+	<img src="user.png" alt="About" style="float:center;width:42px;height:42px;">
+  </a>
+  <a href="gacilan.html#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>ARTWORK</p>
+	<img src="eye.png" alt="Artwork" style="float:center;width:42px;height:42px;">
+  </a>
+  <a href="gacilan.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>CONTACT</p>
+	<img src="contact.png" alt="Contact" style="float:center;width:42px;height:42px;">
+  </a>
+ 
+   <a href="james.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+   <div class="dropdown">
+    <p="dropbtn">OTHERS</p>
+	<img src="" alt="others" style="float:center;width:42px;height:42px;">
+	<div class="dropdown-content">
+   <a href="james.html">UC Hymn</a>
+    <a href="gacilan.html">Blog</a>
+    <a href="project.html">Project</a>
+  </a>
+   </div>
+  </div>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">ARTWORK</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+	<div class="container">
+  <h2 class="w3-padding-16"></h2>
+  <center> <img src="UC.jpg" alt="UC" style="width:50%"></center>
+    </div>
+<center>
+<br>
+<br>
+
+
+
+
+<h1>UC HYMN</h1>
+<pre>
+<h3>
+Hold high the torch;
+Let its blaze reach all corners,
+Throughout the world
+to lighten the course of darkness.
+Keep wise and well not forgetting fidelity,
+To our Alma Mater, wherever we may be
+Keep our hearts together with glowing
+love and loyalty.
+Hold tight the shield,
+And defend our dear country
+We must not yield
+To threats made upon our safety.
+This is the pledge
+We shall keep till our dying day.
+To our Alma Mater, wherever we may be
+Keep our hearts together
+With glowing love and loyalty.
+</h3>
+</pre>
+</center>
+
+<center>
+<pre>
+The History of the University of the Cordilleras
+Baguio Colleges, as the University of the Cordilleras was earlier known, pioneered in tertiary education in the mountain highlands of the Cordillera region amidst devastation in and around Baguio City after the Second World War.
+
+Despite a pessimistic outlook and the bleak prospects pervading the climate of any undertaking at that time, Atty. Benjamin R. Salvosa envisioned Baguio City as a university town. With such vision, he undauntedly pursued a noble mission by founding a college.
+
+
+It was on June 19, 1946, coinciding with the birth anniversary of Dr. Jose P. Rizal, that a historic event unfolded. Baguio Colleges was established initially offering courses in teacher training and liberal arts, with the first batch of enrollees consisting of 156 students. Classes were first held in rented spaces at the Antipolo building, and later, at the Lopez and Lamping buildings along Session Road, the city's main thoroughfare.
+
+1966 became a turning point for Baguio Colleges as it was converted into an educational foundation. Since then, it has blazed new trails and has become more responsive to the needs of the time.
+
+The founder, Atty. Benjamin R. Salvosa sat as the Chairman of the Board of Trustees and held the reins of the presidency up to the early part of 1994.
+
+Through the years, the University of the Cordilleras has grown bigger through the offering of additional courses and increasing student enrollment. It continues to grow even better with time, as evidenced by exemplary performance in various fields of discipline, with its graduates shining in national licensure examinations, and its alumni doing well in private employment, in the practice of their trade and profession, and in public service.
+
+Today, the University of the Cordilleras caters to more than 15,000 students coming from the Cordillera Administrative Region (CAR), Regions I and II, as well as from neighboring provinces in Luzon. Course offerings range from graduate studies, law, arts and sciences, nursing, engineering and architecture, commerce and secretarial, teacher education, computer science, technical courses, elementary and high school.
+
+
+The University's College of Law is rated among the top law schools in the country, having graduated bar topnotchers as of year 2007. The Colleges of Engineering, Criminology, Information and Computer Science, and Teacher Education have gained recognition as among the top colleges in the region and the country. The College of Nursing, although newly-opened, has already shown an optimistic outlook with its exceptional performance in its first ever nursing board examinations.
+
+The future looks bright for the University of the Cordilleras, and we're glad to be blessed to serve these mountain highlands of the Philippines. Mabuhay!
+</pre>
+</center>
+
+
+<center>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="hymn.mp3" type="audio/mpeg">
+</audio>
+</center>
+
+
+
+</body>
+</html>

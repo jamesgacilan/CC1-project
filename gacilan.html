@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<title>Gacilan, John James</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;s
+    color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width:150px ;background: #222; right:0}
+
+.div1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("enigma2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	
+    height: 130vh;
+}
+
+.div2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("moon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	    width: 100%;
+    height: auto;
+background-size: cover;
+    height: 700vh;
+}
+.div3{
+    background-image:url("Untitled.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    height: 80vh;
+	background-size: cover;
+	
+
+}
+
+
+body {
+
+    margin-right: 150px;
+    margin-left: 0px;
+}
+
+.main-img {
+    border-radius: 50%;
+    border: 3px solid black;
+    border-image-repeat: initial;
+}
+
+.container {
+    position: relative;
+ 
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+	
+}
+
+</style>
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center ">
+
+  <!-- Avatar image in top left corner -->
+  <img src="gold.gif" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <p>HOME</p>
+	<img src="home.png" alt="Home" style="float:center;width:42px;height:42px;">
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>ABOUT</p>
+	<img src="user.png" alt="About" style="float:center;width:42px;height:42px;">
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>ARTWORK</p>
+	<img src="eye.png" alt="Artwork" style="float:center;width:42px;height:42px;">
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>CONTACT</p>
+	<img src="contact.png" alt="Contact" style="float:center;width:42px;height:42px;">
+  </a>
+
+   <div class="dropdown">
+    <a href="james.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p="dropbtn">OTHERS</p>
+	<img src="" alt="others" style="float:center;width:42px;height:42px;">
+	<div class="dropdown-content">
+   <a href="james.html">UC Hymn</a>
+    <a href="gacilan.html">Blog</a>
+    <a href="project.html">Project</a>
+  </a>
+   </div>
+  </div>
+  
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">ARTWORK</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+
+<div class ="div1">
+		<!-- Page Content -->
+		<div class="w3-padding-large" id="main">
+		<!-- Header/Home -->
+		<header class="w3-container  w3-center " id="home">
+		<h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> John James.</h1>
+		<p>Web Designer and Dota 2 Player.</p>
+		<img class="img-with-animation main-img animated-in w3-opacity w3-hover-opacity-off" height="250" width="250" data-animation="fade-in" src="31.png" alt="Gacilan JOHN James" 	;">
+		
+		</header>
+</div> 
+  
+<div class="div2">
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64 " id="about"> 
+  
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hello, I'm John James . I'm an aspiring Web Designer living in Baguio. Beside  having a fulltime career in Web Designing Industry.
+	I also play  Esport games and make videos about my play. Check out more of my work on gacilan.com. You can also follow me on Instagram.
+    </p>
+   
+  <!-- Skills Interest Languages -->
+   <h3 class="w3-padding-16 w3-text-light-grey ">My Skills and Interest</h3>
+    <p class="w3-wide">Web Designing</p>
+		<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
+		</div>
+    <p class="w3-wide">Skill</p>
+		<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:60%"></div>
+		</div>
+	<p class="w3-wide">Talent</p>
+		<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+		</div>
+    <p class="w3-wide">Friendly</p>
+		<div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+		</div>
+		
+
+ <h3 class="w3-large w3-text-white"><i class="fa fa-globe fa-fw w3-text-teal"></i>Languages</h3>
+          <p class="w3-wide">English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
+          </div>
+          <p class="w3-wide">Filipino</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:99%"></div>
+          </div>
+          <p class="w3-wide">Others</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:10%"></div>
+          </div>
+	<br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">9+</span><br>
+        Games Owned
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">00+</span><br>
+        Project
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">101+</span><br>
+        Friends
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">16+</span><br>
+        Achievements
+      </div>
+    </div>
+	
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <a href="https://drive.google.com/file/d/10qxXmBDNQsCzuTeGYVwZRDjiYWVHwfok/view"> Click To See Resume</a>
+    </button>
+    
+	
+    <!-- Dota 2 Here!!!! -->
+	
+<div class="container">
+
+  <h2 class="w3-padding-16">Dota 2</h2>
+
+  <img src="legion.gif" alt="Dota2" style="width:100%">
+  <button class="btn" style="transparent"><a href="http://blog.dota2.com/?l=english">Read More</a></button>
+ 
+ <!--SlideShow Images Script here -->
+<h2 class="w3-center">Pictures</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-opacity w3-hover-opacity-off" src="mirana.jpg" style="width:100%">
+  <img class="mySlides w3-opacity w3-hover-opacity-off" src="moon.png" style="width:100%">
+  <img class="mySlides w3-opacity w3-hover-opacity-off" src="terror.jpg" style="width:100%">
+  <img class="mySlides w3-opacity w3-hover-opacity-off" src="zeus.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  
+</div>
+
+
+	<!--Java -->
+	<div class="container">
+  <h2 class="w3-padding-16">Java</h2>
+   <img src="java.png" alt="Java" style="width:100%">
+  <button class="btn" style="transparent"><a href="https://www.java.com/">Read More</a></button>
+   
+    </div>
+    <!-- Inspirations Yahoooo!!!!!1 Family !!! -->
+	<h3 class="w3-padding-24 w3-text-light-grey">Family</h3>  
+    <img src="nit.jpg" alt="Dendi" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Anita Gacilan.</span> Mother.</p>
+	
+	
+	<br>
+	<br>
+	
+	<img src="benok.jpg" alt="Ana" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Angelo Gacilan.</span> Brother.</p>
+	<p>Store Keeper</p>
+	<br>
+	<br>
+	
+	<img src="jenny.jpg" alt="Ana" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Jennylyn Gacilan.</span> Sister.</p>
+	</p>College Graduate</p>
+	<br>
+	<br>
+	
+	<img src="jordan.jpg" alt="Ana" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Jordan Gacilan.</span> Brother.</p>
+	<p>High School Student</p>
+	<br>
+
+    <h3 class="w3-padding-24 w3-text-light-grey">My Inspiration</h3>  
+    <img src="dendi.jpg" alt="Dendi" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Danylo Ishutin.</span> First Champion of TI.</p>
+    <p>MMR IS JUST A NUMBER.</p>
+	<br>
+	<br>
+	
+    
+    <img src="ana.png" alt="Ana" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Anathan Pham.</span> New Champion of TI.</p>
+    <p>ANATHAN PHAM PHAM PHAM PHAM.</p>
+  <!-- End About Section -->
+  
+
+  <!-- Portfolio Section -->
+ 
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">ARTWORK SHOWCASE</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="a.gif" style="width:100%">
+        <img src="b.gif" style="width:100%">
+        <img src="d.gif" style="width:100%">
+		<img src="f.gif" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="c.gif" style="width:100%">
+        <img src="e.gif" style="width:100%">
+        <img src="k.gif" style="width:100%">
+        <img src="g.gif" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+</div>
+  <!-- Contact Section -->
+  
+ <div class ="div3">  
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p> Baguio City, Philippines</p>
+      <p> Phone: +420 9100</p>
+      <p> Email: jamesgacilan@yahoo.com</p>
+    </div>
+
+  <!-- End Contact Section -->
+  </div>
+  
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <i class="material-icons"></i>
+	<a href = "fb.com">
+	<img src="fb.png" alt="FaceBook" style="float:center;width:42px;height:42px;">
+	</a>
+ <i class="material-icons"></i>
+	<a href = "instagram.com " >
+	<img src="insta.png" alt="Instagram" style="float:center;width:42px;height:42px;">
+	</a>
+		
+	  <i class="material-icons"></i>
+	<a href = "twitter.com">
+	<img src="twit.png" alt="Twitter" style="float:center;width:42px;height:42px;">
+	</a>
+    
+    <p class="w3-medium">ALL RIGHTS RESERVED. GACILAN JOHN JAMES 2018.</p>
+	<p class="w3-medium">SITE BY:<a class="w3-hover-text-green" class="home" href>JOHN JAMES GACILAN</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
